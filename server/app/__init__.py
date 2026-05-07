@@ -16,11 +16,11 @@ def create_app(config_class=Config):
 
     mongo.init_app(app)
     socketio.init_app(app,
-        async_mode='gevent',
-        cors_allowed_origins="*",
-        logger=False,
-        engineio_logger=False
-    )
+    async_mode='threading',
+    cors_allowed_origins="*",
+    logger=False,
+    engineio_logger=False
+)
 
     from .routes.auth_routes import auth_bp
     from .routes.user_routes import user_bp
