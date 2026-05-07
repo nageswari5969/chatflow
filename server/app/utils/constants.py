@@ -1,0 +1,6 @@
+MESSAGE_TYPES = ['text', 'image', 'file', 'audio', 'video']
+MESSAGE_STATUS = ['sent', 'delivered', 'read']
+CALL_TYPES = ['voice', 'video']
+CALL_STATUS = ['missed', 'answered', 'rejected']
+USER_ROLES = ['user', 'admin']
+REPORT_STATUS = ['pending', 'resolved', 'dismissed']
