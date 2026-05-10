@@ -1,3 +1,5 @@
+
+
 import Avatar from '../common/Avatar'
 
 export default function UserTable({ users = [], onBan }) {

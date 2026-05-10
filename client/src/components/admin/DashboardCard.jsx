@@ -1,3 +1,4 @@
+
 // DashboardCard
 export function DashboardCard({ icon, label, value, color = 'var(--accent)' }) {
   return (

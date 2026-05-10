@@ -1,3 +1,5 @@
+
+
 export default function AnalyticsChart({ title, data = [] }) {
   return (
     <div style={{
